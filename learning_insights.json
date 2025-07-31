@@ -1,0 +1,2492 @@
+[
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.36666666666666664,
+          "avg_profit": -38.07881655585219,
+          "count": 30
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 200,
+    "timestamp": "2025-07-30T03:25:09.531902"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.36666666666666664,
+          "avg_profit": -38.07881655585219,
+          "count": 30
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 200,
+    "timestamp": "2025-07-30T03:27:50.981719"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:01:51.253568"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:03:14.090320"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:04:23.296587"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:05:25.168145"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:06:11.479119"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:06:30.122679"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:06:58.565126"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:07:50.902245"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:08:40.844314"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:09:42.964554"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3548387096774194,
+          "avg_profit": -36.85144987015595,
+          "count": 31
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 201,
+    "timestamp": "2025-07-30T04:11:29.941883"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.34375,
+          "avg_profit": -35.710271339758634,
+          "count": 32
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 202,
+    "timestamp": "2025-07-30T04:17:10.551415"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3611111111111111,
+          "avg_profit": -31.756123604867152,
+          "count": 36
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 206,
+    "timestamp": "2025-07-30T04:27:08.920153"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "SAT",
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.3611111111111111,
+          "avg_profit": -31.756123604867152,
+          "count": 36
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 206,
+    "timestamp": "2025-07-30T04:27:22.519764"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.6153846153846154,
+      "overall_accuracy": 0.460093896713615,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 213,
+      "recent_signals": 13
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4418604651162791,
+          "avg_profit": -26.554791728046123,
+          "count": 43
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 213,
+    "timestamp": "2025-07-30T04:28:36.860730"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.6428571428571429,
+      "overall_accuracy": 0.46261682242990654,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 214,
+      "recent_signals": 14
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.45454545454545453,
+          "avg_profit": -25.9504706413696,
+          "count": 44
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 214,
+    "timestamp": "2025-07-30T04:31:54.212161"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.6,
+      "overall_accuracy": 0.4604651162790698,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 215,
+      "recent_signals": 15
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": -25.377242447823832,
+          "count": 45
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 215,
+    "timestamp": "2025-07-30T04:35:35.186098"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.6,
+      "overall_accuracy": 0.4604651162790698,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 215,
+      "recent_signals": 15
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": -25.377242447823832,
+          "count": 45
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 215,
+    "timestamp": "2025-07-30T04:39:28.892271"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5555555555555556,
+      "overall_accuracy": 0.45871559633027525,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 218,
+      "recent_signals": 18
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4375,
+          "avg_profit": -23.793902427538864,
+          "count": 48
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 218,
+    "timestamp": "2025-07-30T04:53:12.806650"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5555555555555556,
+      "overall_accuracy": 0.45871559633027525,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 218,
+      "recent_signals": 18
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4375,
+          "avg_profit": -23.793902427538864,
+          "count": 48
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 218,
+    "timestamp": "2025-07-30T04:54:15.076677"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5555555555555556,
+      "overall_accuracy": 0.45871559633027525,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 218,
+      "recent_signals": 18
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4375,
+          "avg_profit": -23.793902427538864,
+          "count": 48
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 218,
+    "timestamp": "2025-07-30T04:55:01.469147"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5789473684210527,
+      "overall_accuracy": 0.4611872146118721,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 219,
+      "recent_signals": 19
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 219,
+    "timestamp": "2025-07-30T05:03:23.789202"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5789473684210527,
+      "overall_accuracy": 0.4611872146118721,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 219,
+      "recent_signals": 19
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 219,
+    "timestamp": "2025-07-30T05:03:38.153330"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5789473684210527,
+      "overall_accuracy": 0.4611872146118721,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 219,
+      "recent_signals": 19
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 219,
+    "timestamp": "2025-07-30T05:06:56.838327"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5789473684210527,
+      "overall_accuracy": 0.4611872146118721,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 219,
+      "recent_signals": 19
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3333333333333333,
+          "avg_profit": 0.9387878787878787,
+          "count": 33
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 219,
+    "timestamp": "2025-07-30T05:07:04.749849"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.55,
+      "overall_accuracy": 0.4590909090909091,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 220,
+      "recent_signals": 20
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3235294117647059,
+          "avg_profit": 0.9111764705882353,
+          "count": 34
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 220,
+    "timestamp": "2025-07-30T05:13:43.529484"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.55,
+      "overall_accuracy": 0.4590909090909091,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 220,
+      "recent_signals": 20
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3235294117647059,
+          "avg_profit": 0.9111764705882353,
+          "count": 34
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 220,
+    "timestamp": "2025-07-30T05:15:45.365128"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.55,
+      "overall_accuracy": 0.4590909090909091,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 220,
+      "recent_signals": 20
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3235294117647059,
+          "avg_profit": 0.9111764705882353,
+          "count": 34
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 220,
+    "timestamp": "2025-07-30T05:15:52.614077"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:17:32.915090"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:18:12.121220"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:18:43.663340"
+  },
+  {
+    "performance": null,
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:19:29.775532"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:19:33.051853"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:21:48.432404"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:24:21.761927"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:24:24.303754"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:26:23.644739"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:27:39.957841"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:27:50.646801"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:28:48.012118"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:29:16.941606"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:29:42.515225"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:30:29.190338"
+  },
+  {
+    "performance": {
+      "recent_accuracy": 0.5238095238095238,
+      "overall_accuracy": 0.45701357466063347,
+      "trend": "\u0130yile\u015fiyor",
+      "total_signals": 221,
+      "recent_signals": 21
+    },
+    "strategy_recommendations": {
+      "best_strategies": [
+        "AL (G\u00fc\u00e7l\u00fc)"
+      ],
+      "avoid_strategies": [
+        "BEKLE"
+      ],
+      "signal_performance": {
+        "SAT (Zay\u0131f)": {
+          "success_rate": 0.45161290322580644,
+          "avg_profit": -7.4339436318522845,
+          "count": 31
+        },
+        "AL (Zay\u0131f)": {
+          "success_rate": 0.5454545454545454,
+          "avg_profit": 14.185026564739276,
+          "count": 33
+        },
+        "SAT": {
+          "success_rate": 0.4489795918367347,
+          "avg_profit": -23.308215458618182,
+          "count": 49
+        },
+        "SAT (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.4230769230769231,
+          "avg_profit": -6.546415579170293,
+          "count": 26
+        },
+        "BEKLE": {
+          "success_rate": 0.3142857142857143,
+          "avg_profit": 0.885142857142857,
+          "count": 35
+        },
+        "AL": {
+          "success_rate": 0.4444444444444444,
+          "avg_profit": 13.697457342545867,
+          "count": 27
+        },
+        "AL (G\u00fc\u00e7l\u00fc)": {
+          "success_rate": 0.65,
+          "avg_profit": 5.410862584232415,
+          "count": 20
+        }
+      }
+    },
+    "total_signals": 221,
+    "timestamp": "2025-07-30T05:30:36.614833"
+  }
+]
