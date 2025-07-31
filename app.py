@@ -545,8 +545,8 @@ def get_binance_price(symbol):
     try:
         response = safe_request(url, timeout=5)
         if response:
-        data = response.json()
-        return float(data['price'])
+            data = response.json()
+            return float(data['price'])
         return 'Veri alınamadı'
     except Exception as e:
         logger.error(f"Fiyat alma hatası: {e}")
@@ -558,18 +558,18 @@ def get_binance_history(symbol, interval="15m", limit=100):
     try:
         response = safe_request(url, timeout=10)
         if response:
-        data = response.json()
+            data = response.json()
             
             # Veri doğrulama
             if not data or len(data) < 20:
                 logger.warning(f"Yetersiz veri: {symbol} - {len(data) if data else 0} kayıt")
-            return [], [], [], [], []
+                return [], [], [], [], []
         
-        times = [int(item[0]) for item in data]
-        prices = [float(item[4]) for item in data]  # Kapanış fiyatı
-        highs = [float(item[2]) for item in data]
-        lows = [float(item[3]) for item in data]
-        volumes = [float(item[5]) for item in data]  # Hacim
+            times = [int(item[0]) for item in data]
+            prices = [float(item[4]) for item in data]  # Kapanış fiyatı
+            highs = [float(item[2]) for item in data]
+            lows = [float(item[3]) for item in data]
+            volumes = [float(item[5]) for item in data]  # Hacim
             
             # Veri kalitesi kontrolü
             if any(p <= 0 for p in prices):
@@ -582,7 +582,7 @@ def get_binance_history(symbol, interval="15m", limit=100):
                 logger.warning(f"Anormal fiyat değişimi tespit edildi: {symbol}")
             
             logger.info(f"✅ {symbol} için {len(data)} veri noktası alındı")
-        return times, prices, highs, lows, volumes
+            return times, prices, highs, lows, volumes
         else:
             logger.error(f"Binance API yanıt vermedi: {symbol}")
             return [], [], [], [], []
@@ -636,12 +636,12 @@ def predict_next(prices):
     if len(prices) < 10:
         return None
     try:
-    X = np.arange(len(prices)).reshape(-1, 1)
-    y = np.array(prices)
-    model = LinearRegression()
-    model.fit(X, y)
-    next_time = np.array([[len(prices)]])
-    prediction = model.predict(next_time)[0]
+        X = np.arange(len(prices)).reshape(-1, 1)
+        y = np.array(prices)
+        model = LinearRegression()
+        model.fit(X, y)
+        next_time = np.array([[len(prices)]])
+        prediction = model.predict(next_time)[0]
         return round(prediction, 4)
     except Exception as e:
         logger.error(f"Tahmin hatası: {e}")
@@ -717,32 +717,32 @@ def compute_macd(prices, fast=12, slow=26, signal=9):
 def compute_stochastic(prices, highs, lows, k_period=14, d_period=3):
     """Stokastik osilatör hesaplar"""
     try:
-    if len(prices) < k_period + d_period:
-        return None, None
-    closes = np.array(prices)
-    highs = np.array(highs)
-    lows = np.array(lows)
-    if len(lows) < k_period or len(highs) < k_period:
-        return None, None
-    lowest_low = np.min(lows[-k_period:])
-    highest_high = np.max(highs[-k_period:])
-    if highest_high == lowest_low:
-        return None, None
-    k = 100 * (closes[-1] - lowest_low) / (highest_high - lowest_low)
-    d_values = []
-    for i in range(1, d_period+1):
-        start = -i - k_period + 1
-        end = -i + 1 if -i + 1 != 0 else None
-        lows_slice = lows[start:end]
-        highs_slice = highs[start:end]
-        closes_idx = -i
-        if len(lows_slice) == 0 or len(highs_slice) == 0 or (np.max(highs_slice) - np.min(lows_slice)) == 0:
-            continue
-        ll = np.min(lows_slice)
-        hh = np.max(highs_slice)
-        d_values.append(100 * (closes[closes_idx] - ll) / (hh - ll))
-    d = np.mean(d_values) if d_values else None
-    return round(k, 2), round(d, 2) if d is not None else (round(k, 2), None)
+        if len(prices) < k_period + d_period:
+            return None, None
+        closes = np.array(prices)
+        highs = np.array(highs)
+        lows = np.array(lows)
+        if len(lows) < k_period or len(highs) < k_period:
+            return None, None
+        lowest_low = np.min(lows[-k_period:])
+        highest_high = np.max(highs[-k_period:])
+        if highest_high == lowest_low:
+            return None, None
+        k = 100 * (closes[-1] - lowest_low) / (highest_high - lowest_low)
+        d_values = []
+        for i in range(1, d_period+1):
+            start = -i - k_period + 1
+            end = -i + 1 if -i + 1 != 0 else None
+            lows_slice = lows[start:end]
+            highs_slice = highs[start:end]
+            closes_idx = -i
+            if len(lows_slice) == 0 or len(highs_slice) == 0 or (np.max(highs_slice) - np.min(lows_slice)) == 0:
+                continue
+            ll = np.min(lows_slice)
+            hh = np.max(highs_slice)
+            d_values.append(100 * (closes[closes_idx] - ll) / (hh - ll))
+        d = np.mean(d_values) if d_values else None
+        return round(k, 2), round(d, 2) if d is not None else (round(k, 2), None)
     except Exception as e:
         logger.error(f"Stokastik hesaplama hatası: {e}")
         return None, None
@@ -1168,18 +1168,18 @@ def strategy_signal(prices, highs, lows, volumes=None):
 def compute_rsi_values(prices, period=14):
     """RSI değerlerini hesaplar (grafik için)"""
     try:
-    prices = np.array(prices)
-    if len(prices) < period + 1:
-        return []
-    rsi_values = []
-    for i in range(period, len(prices)):
-        deltas = np.diff(prices[i-period:i+1])
-        up = deltas[deltas > 0].sum() / period
-        down = -deltas[deltas < 0].sum() / period
-        rs = up / down if down != 0 else 0
-        rsi = 100 - 100 / (1 + rs)
-        rsi_values.append(rsi)
-    return rsi_values
+        prices = np.array(prices)
+        if len(prices) < period + 1:
+            return []
+        rsi_values = []
+        for i in range(period, len(prices)):
+            deltas = np.diff(prices[i-period:i+1])
+            up = deltas[deltas > 0].sum() / period
+            down = -deltas[deltas < 0].sum() / period
+            rs = up / down if down != 0 else 0
+            rsi = 100 - 100 / (1 + rs)
+            rsi_values.append(rsi)
+        return rsi_values
     except Exception as e:
         logger.error(f"RSI değerleri hesaplama hatası: {e}")
         return []
@@ -1294,7 +1294,7 @@ def make_plot(times, prices, prediction, bb_lower, bb_middle, bb_upper, volumes)
         
     except Exception as e:
         logger.error(f"Grafik oluşturma hatası: {e}")
-            return "<p>Grafik oluşturulamadı.</p>"
+        return "<p>Grafik oluşturulamadı.</p>"
 
 @app.route('/')
 def index():
@@ -1328,8 +1328,8 @@ def index():
         # Otomatik model eğitimi kontrolü
         check_and_train_model()
     
-    price = get_binance_price(symbol)
-        if price is None:
+        price = get_binance_price(symbol)
+        if not isinstance(price, (int, float)):
             error = "Fiyat verisi alınamadı. Lütfen tekrar deneyin."
             return render_template('index.html',
                 price="N/A",
@@ -1360,7 +1360,7 @@ def index():
                 rate_limit_warning=rate_limit_warning
             )
         
-    times, prices, highs, lows, volumes = get_binance_history(symbol, interval=interval, limit=100)
+        times, prices, highs, lows, volumes = get_binance_history(symbol, interval=interval, limit=100)
         
         if not prices or len(prices) < 20:
             error = "Yeterli veri yok. Lütfen tekrar deneyin."
@@ -1393,19 +1393,19 @@ def index():
                 rate_limit_warning=rate_limit_warning
             )
         
-    prediction = predict_next(prices)
+        prediction = predict_next(prices)
         
         # İndikatörleri ayrıca hesapla (strategy_signal'den bağımsız)
         rsi = compute_rsi(prices)
         bb_lower, bb_middle, bb_upper = compute_bollinger_bands(prices)
-    macd, macd_signal = compute_macd(prices)
-    stoch_k, stoch_d = compute_stochastic(prices, highs, lows)
+        macd, macd_signal = compute_macd(prices)
+        stoch_k, stoch_d = compute_stochastic(prices, highs, lows)
         williams_r = compute_williams_r(highs, lows, prices)
         atr = compute_atr(highs, lows, prices)
         
         # Strateji sinyali hesapla
         try:
-            signal, color, _, _, _, _, _, _, _, _, _, _, _, strategy_info = strategy_signal(prices, highs, lows, volumes)
+            signal, color, _, _, _, _, _, _, _, _, _, _, strategy_info = strategy_signal(prices, highs, lows, volumes)
         except Exception as e:
             logger.error(f"Ana sayfa hatası: {e}")
             signal = "Hata"
@@ -1435,7 +1435,7 @@ def index():
             atr = 0.0
             logger.warning("Yeterli veri yok, varsayılan değerler kullanılıyor")
         
-    plot_div = make_plot(times, prices, prediction, bb_lower, bb_middle, bb_upper, volumes)
+        plot_div = make_plot(times, prices, prediction, bb_lower, bb_middle, bb_upper, volumes)
     
         # Sinyali CSV'ye kaydet (sadece yeni coin/interval kombinasyonu için)
         if signal and signal not in ['Veri yetersiz', 'Hata'] and isinstance(price, (int, float)):
@@ -1469,16 +1469,16 @@ def index():
                     save_signal_to_csv(
                         symbol=symbol,
                         timestamp=current_time.strftime('%Y-%m-%d %H:%M:%S'),
-        price=price,
-        signal=signal,
-        rsi=rsi,
-        bb_lower=bb_lower,
-        bb_middle=bb_middle,
-        bb_upper=bb_upper,
-        macd=macd,
+                        price=price,
+                        signal=signal,
+                        rsi=rsi,
+                        bb_lower=bb_lower,
+                        bb_middle=bb_middle,
+                        bb_upper=bb_upper,
+                        macd=macd,
                         macd_signal=macd_signal,
-        stoch_k=stoch_k,
-        stoch_d=stoch_d,
+                        stoch_k=stoch_k,
+                        stoch_d=stoch_d,
                         williams_r=williams_r,
                         atr=atr,
                         interval=interval
@@ -1514,17 +1514,17 @@ def index():
             macd_comment=macd_comment(macd, macd_signal),
             stoch_k=stoch_k_display,
             stoch_d=stoch_d_display,
-        stoch_comment=stoch_comment(stoch_k, stoch_d),
+            stoch_comment=stoch_comment(stoch_k, stoch_d),
             williams_r=williams_r_display,
             williams_comment=williams_comment(williams_r),
             atr=atr_display,
             atr_comment=atr_comment(atr, price if isinstance(price, (int, float)) else None),
-        rsi_comment=rsi_comment(rsi),
+            rsi_comment=rsi_comment(rsi),
             strategy_info=strategy_info,
-        popular_coins=POPULAR_COINS,
-        symbol=symbol,
-        interval=interval,
-        timeframes=TIMEFRAMES,
+            popular_coins=POPULAR_COINS,
+            symbol=symbol,
+            interval=interval,
+            timeframes=TIMEFRAMES,
             error=error,
             rate_limit_warning=rate_limit_warning
         )
@@ -1724,7 +1724,7 @@ def auto_data_collector():
                         
                         if len(prices) >= 20:  # Yeterli veri varsa
                             # Sinyal üret
-                            signal, color, strategy_info, rsi, bb_lower, bb_middle, bb_upper, macd, macd_signal, stoch_k, stoch_d, williams_r, atr = strategy_signal(prices, highs, lows, volumes)
+                            signal, color, rsi, bb_lower, bb_middle, bb_upper, macd, macd_signal, stoch_k, stoch_d, williams_r, atr, strategy_info = strategy_signal(prices, highs, lows, volumes)
                             
                             # CSV'ye kaydet
                             if signal and signal != "Veri yetersiz":
@@ -1774,250 +1774,6 @@ WEBSOCKET_CLIENTS = set()
 REAL_TIME_SIGNALS = {}
 SIGNAL_THRESHOLD = 0.7  # %70 güven skoru
 BUMP_DUMP_THRESHOLD = 0.05  # %5 fiyat değişimi
-
-class AdvancedAIModels:
-    """Gelişmiş AI Modelleri"""
-    
-    def __init__(self):
-        self.lstm_model = None
-        self.ensemble_model = None
-        self.neural_network = None
-        self.reinforcement_model = None
-        self.scaler = StandardScaler()
-        self.models_loaded = False
-        
-    def create_lstm_model(self, input_shape):
-        """LSTM modeli oluşturur"""
-        model = Sequential([
-            LSTM(50, return_sequences=True, input_shape=input_shape),
-            Dropout(0.2),
-            LSTM(50, return_sequences=False),
-            Dropout(0.2),
-            Dense(25),
-            Dense(3, activation='softmax')  # AL, SAT, BEKLE
-        ])
-        model.compile(optimizer=Adam(learning_rate=0.001), 
-                     loss='sparse_categorical_crossentropy', 
-                     metrics=['accuracy'])
-        return model
-    
-    def create_ensemble_model(self):
-        """Ensemble model oluşturur"""
-        models = [
-            RandomForestClassifier(n_estimators=100, random_state=42),
-            GradientBoostingClassifier(n_estimators=100, random_state=42),
-            MLPClassifier(hidden_layer_sizes=(100, 50), max_iter=500, random_state=42)
-        ]
-        return models
-    
-    def create_neural_network(self, input_size):
-        """Neural Network modeli oluşturur"""
-        model = Sequential([
-            Dense(128, activation='relu', input_shape=(input_size,)),
-            Dropout(0.3),
-            Dense(64, activation='relu'),
-            Dropout(0.2),
-            Dense(32, activation='relu'),
-            Dense(3, activation='softmax')
-        ])
-        model.compile(optimizer='adam', 
-                     loss='sparse_categorical_crossentropy', 
-                     metrics=['accuracy'])
-        return model
-    
-    def prepare_lstm_data(self, prices, sequence_length=20):
-        """LSTM için veri hazırlar"""
-        if len(prices) < sequence_length + 1:
-            return None, None
-        
-        X, y = [], []
-        for i in range(sequence_length, len(prices)):
-            # Fiyat değişimleri
-            price_changes = []
-            for j in range(sequence_length):
-                if i - j - 1 >= 0:
-                    change = (prices[i - j] - prices[i - j - 1]) / prices[i - j - 1]
-                    price_changes.append(change)
-                else:
-                    price_changes.append(0)
-            
-            X.append(price_changes)
-            
-            # Etiket (gelecek fiyat değişimi)
-            future_change = (prices[i] - prices[i-1]) / prices[i-1]
-            if future_change > 0.01:  # %1 artış
-                y.append(1)  # AL
-            elif future_change < -0.01:  # %1 düşüş
-                y.append(2)  # SAT
-            else:
-                y.append(0)  # BEKLE
-        
-        return np.array(X), np.array(y)
-    
-    def train_advanced_models(self, signals_data):
-        """Gelişmiş modelleri eğitir"""
-        try:
-            if len(signals_data) < 50:
-                logger.warning("Yetersiz veri için gelişmiş modeller eğitilemiyor")
-                return False
-            
-            # Veri hazırlama
-            features = ['rsi', 'bb_lower', 'bb_middle', 'bb_upper', 'macd', 'macd_signal', 
-                       'stoch_k', 'stoch_d', 'williams_r', 'atr']
-            
-            X = signals_data[features].dropna()
-            y = signals_data.loc[X.index, 'signal']
-            
-            if len(X) < 20:
-                return False
-            
-            # Veri normalizasyonu
-            X_scaled = self.scaler.fit_transform(X)
-            
-            # 1. Ensemble Model
-            ensemble_models = self.create_ensemble_model()
-            ensemble_predictions = []
-            
-            for model in ensemble_models:
-                model.fit(X_scaled, y)
-                pred = model.predict_proba(X_scaled)
-                ensemble_predictions.append(pred)
-            
-            # Ensemble tahminleri birleştir
-            ensemble_pred = np.mean(ensemble_predictions, axis=0)
-            self.ensemble_model = ensemble_models
-            
-            # 2. Neural Network
-            self.neural_network = self.create_neural_network(X.shape[1])
-            y_encoded = pd.get_dummies(y).values
-            self.neural_network.fit(X_scaled, y_encoded, epochs=50, batch_size=32, verbose=0)
-            
-            # 3. LSTM Model (fiyat verileri için)
-            if 'price' in signals_data.columns:
-                prices = signals_data['price'].values
-                X_lstm, y_lstm = self.prepare_lstm_data(prices)
-                if X_lstm is not None and len(X_lstm) > 10:
-                    X_lstm = X_lstm.reshape((X_lstm.shape[0], X_lstm.shape[1], 1))
-                    self.lstm_model = self.create_lstm_model((X_lstm.shape[1], 1))
-                    self.lstm_model.fit(X_lstm, y_lstm, epochs=30, batch_size=16, verbose=0)
-            
-            # Modelleri kaydet
-            self.save_advanced_models()
-            self.models_loaded = True
-            
-            logger.info("✅ Gelişmiş AI modelleri eğitildi!")
-            return True
-            
-        except Exception as e:
-            logger.error(f"Gelişmiş model eğitme hatası: {e}")
-            return False
-    
-    def predict_with_advanced_models(self, features, prices=None):
-        """Gelişmiş modellerle tahmin yapar"""
-        try:
-            if not self.models_loaded:
-                return None, 0
-            
-            # Ensemble tahmin
-            features_scaled = self.scaler.transform([features])
-            ensemble_preds = []
-            
-            for model in self.ensemble_model:
-                pred = model.predict_proba(features_scaled)[0]
-                ensemble_preds.append(pred)
-            
-            ensemble_result = np.mean(ensemble_preds, axis=0)
-            
-            # Neural Network tahmin
-            nn_pred = self.neural_network.predict(features_scaled)[0]
-            
-            # LSTM tahmin (eğer fiyat verisi varsa)
-            lstm_pred = None
-            if self.lstm_model is not None and prices is not None:
-                if len(prices) >= 20:
-                    price_changes = []
-                    for i in range(1, 21):
-                        if len(prices) - i > 0:
-                            change = (prices[-i] - prices[-i-1]) / prices[-i-1]
-                            price_changes.append(change)
-                        else:
-                            price_changes.append(0)
-                    
-                    X_lstm = np.array([price_changes]).reshape(1, 20, 1)
-                    lstm_pred = self.lstm_model.predict(X_lstm)[0]
-            
-            # Tahminleri birleştir
-            final_pred = ensemble_result * 0.4 + nn_pred * 0.4
-            if lstm_pred is not None:
-                final_pred = final_pred * 0.8 + lstm_pred * 0.2
-            
-            # En yüksek olasılıklı sınıfı seç
-            predicted_class = np.argmax(final_pred)
-            confidence = max(final_pred)
-            
-            # Sinyal dönüştürme
-            signal_map = {0: 'BEKLE', 1: 'AL', 2: 'SAT'}
-            signal = signal_map.get(predicted_class, 'BEKLE')
-            
-            return signal, confidence
-            
-        except Exception as e:
-            logger.error(f"Gelişmiş model tahmin hatası: {e}")
-            return None, 0
-    
-    def save_advanced_models(self):
-        """Gelişmiş modelleri kaydeder"""
-        try:
-            # Ensemble model
-            with open('ensemble_model.pkl', 'wb') as f:
-                pickle.dump(self.ensemble_model, f)
-            
-            # Neural Network
-            if self.neural_network:
-                self.neural_network.save('neural_network_model.h5')
-            
-            # LSTM model
-            if self.lstm_model:
-                self.lstm_model.save('lstm_model.h5')
-            
-            # Scaler
-            with open('advanced_scaler.pkl', 'wb') as f:
-                pickle.dump(self.scaler, f)
-            
-            logger.info("✅ Gelişmiş modeller kaydedildi!")
-            
-        except Exception as e:
-            logger.error(f"Model kaydetme hatası: {e}")
-    
-    def load_advanced_models(self):
-        """Gelişmiş modelleri yükler"""
-        try:
-            # Ensemble model
-            if os.path.exists('ensemble_model.pkl'):
-                with open('ensemble_model.pkl', 'rb') as f:
-                    self.ensemble_model = pickle.load(f)
-            
-            # Neural Network
-            if os.path.exists('neural_network_model.h5'):
-                self.neural_network = tf.keras.models.load_model('neural_network_model.h5')
-            
-            # LSTM model
-            if os.path.exists('lstm_model.h5'):
-                self.lstm_model = tf.keras.models.load_model('lstm_model.h5')
-            
-            # Scaler
-            if os.path.exists('advanced_scaler.pkl'):
-                with open('advanced_scaler.pkl', 'rb') as f:
-                    self.scaler = pickle.load(f)
-            
-            self.models_loaded = True
-            logger.info("✅ Gelişmiş modeller yüklendi!")
-            
-        except Exception as e:
-            logger.error(f"Model yükleme hatası: {e}")
-
-# Global AI modeli
-advanced_ai = AdvancedAIModels()
 
 def detect_bump_dump_signal(symbol, current_price, previous_price, volume_change):
     """Bump/Dump sinyali tespit eder"""
@@ -2180,9 +1936,6 @@ def start_real_time_monitoring():
 if __name__ == '__main__':
     # AI modelini yükle
     load_ai_model()
-    
-    # Gelişmiş AI modellerini yükle
-    advanced_ai.load_advanced_models()
     
     # Gelişmiş özellikleri başlat
     initialize_advanced_features()
