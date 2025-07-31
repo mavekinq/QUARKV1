@@ -196,7 +196,7 @@ Sorunlarınız için:
 
 ## 📄 Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+Bu proje QUARK DEV lisansı altında lisanslanmıştır.
 
 ---
 
